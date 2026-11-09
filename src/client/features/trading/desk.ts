@@ -3,7 +3,8 @@
 // Ctrl+←/→, as on a Mac, or the arrows under the screen) and the camera glides along to the next
 // monitor, the way a Mac slides between desktops. The clock plays only while you're at the desk.
 //
-// The monitors show what each screen's set to all the time, so everyone walking past sees the charts.
+// The monitors show what each screen's set to all the time, so the charts are up as you walk past.
+// The market and the account are this browser's own: everyone else sees their own desk on them.
 
 import * as THREE from 'three';
 import { h, openModal, type Modal } from '../../ui/dom';
