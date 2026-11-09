@@ -22,6 +22,7 @@ import type { installBasketball } from '../features/basketball';
 import type { installBoards } from '../features/boards';
 import type { installBookshelf } from '../features/bookshelf';
 import type { installCabinet } from '../features/cabinet';
+import type { installTrading } from '../features/trading';
 import type { installCarrying } from '../features/carrying';
 import type { installCars } from '../features/cars';
 import type { installClimbing } from '../features/climbing';
@@ -102,6 +103,7 @@ export interface Parts {
   dog: Made<typeof installDog>;
   jukebox: Made<typeof installJukebox>;
   cabinet: Made<typeof installCabinet>;
+  trading: Made<typeof installTrading>;
   golf: Made<typeof installGolf>;
   bargames: Made<typeof installBarGames>;
   hanging: Made<typeof installHanging>;
